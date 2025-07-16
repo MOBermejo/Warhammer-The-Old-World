@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="7b8f-602e-29cd-5786" name="The Empire of Man" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="22" revision="110" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
   <sharedProfiles>
+    <profile name="Iron Shell" hidden="false" id="d1f4-5e82-420-1000" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" publicationId="420">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Immune to posion attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crush the Weak" hidden="false" id="d1f4-5e82-420-1001" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" publicationId="420">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Models with this rule have the Hatred special rule against enemies with a leadership characteristic of 6 or lower.</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Prayers of Ulric" hidden="false" id="d1f4-5e82-b7ed-3ad0" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="53" publicationId="8b8d-8fc4-559e-87b1">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this character may attempt to invoke Ulric’s blessings by chanting a single Prayer from the list below and making a Leadership test (using their own Leadership). If this test is passed, the Prayer takes immediate effect:
@@ -131,7 +141,7 @@
     </profile>
     <profile name="Fanatical Zeal" hidden="false" id="a6cf-dfbe-4dcb-153a" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="61" publicationId="8b8d-8fc4-559e-87b1">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule can be joined by a Lector of Sigmar or a Priest of Sigmar. However, these are the only characters that can join this unit. A Lector of Sigmar or Priest of Sigmar that joins a unit of Flagellants is considered to have the Unbreakable special rule for as long as they remain with the unit.
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule can be joined by a Lector of Sigmar or a Priest of Sigmar. However, these are the only characters that can join this unit. A Lector of Sigmar or Priest of Sigmar that joins a unit of Flagellants is considered to have the Unbreakable special rule for as long as they remain with the unit. Can also be joined by a Harbinger of Doom.
 
  Note that a unit with the Unbreakable special rule cannot normally be joined by a character without it. This rule provides an exception that represents the fanaticism of Sigmar’s priesthood.</characteristic>
       </characteristics>
@@ -147,7 +157,7 @@
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">24&quot;</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">5</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Cumbersome, Helblaster, Move or Shoot</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">This weapon uses the Black Powder Misfire table.</characteristic>
       </characteristics>
@@ -246,7 +256,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
     <profile name="Helstorm Rocket Battery" hidden="false" id="4f4b-796c-5654-e56d" typeId="a378-c633-912d-11ce" typeName="Weapon" page="73" publicationId="8b8d-8fc4-559e-87b1">
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">12-48&quot;</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">3</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Cumbersome, Helstorm, Move or Shoot</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">This weapon uses a number of 3&quot; blast templates and the Black Powder Misfire table.</characteristic>
@@ -327,7 +337,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
       </characteristics>
     </profile>
     <profile name="Chapter Master" hidden="false" id="f839-6244-df90-c33a" typeId="b070-143a-73f-2772" typeName="Model">
@@ -366,7 +376,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
       </characteristics>
     </profile>
     <profile name="Priest of Sigmar" hidden="false" id="50a9-5115-8515-915d" typeId="b070-143a-73f-2772" typeName="Model">
@@ -379,7 +389,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Greatsword" hidden="false" id="10a6-12d6-15a2-3f38" typeId="b070-143a-73f-2772" typeName="Model">
@@ -405,7 +415,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Empire Engineer" hidden="false" id="f0b1-fc30-97fc-7929" typeId="b070-143a-73f-2772" typeName="Model">
@@ -1278,7 +1288,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="a98a-9d1d-1202-3cd7" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="145"/>
+            <cost name="pts" typeId="points" value="100"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon" hidden="false" id="f459-9dd4-8398-db27" sortIndex="7">
@@ -1362,6 +1372,8 @@ Note that any special rules granted by these upgrades do not apply to the models
                     <cost name="pts" typeId="points" value="50"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Griffon" hidden="false" type="selectionEntry" id="b544-7a4c-80a2-1fc1" targetId="c138-e0dc-903c-64ce" sortIndex="4"/>
+                <entryLink import="true" name="Imperial Griffon" hidden="false" type="selectionEntry" id="3e8e-835c-1e5e-f984" targetId="719f-4ec7-a969-b508" sortIndex="5"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Armour" hidden="false" id="c0fc-314e-ab2d-b472" defaultSelectionEntryId="2401-1e78-e3f4-28ff" sortIndex="5">
@@ -1370,12 +1382,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee69-d377-508c-aaad-max"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="2401-1e78-e3f4-28ff" targetId="62fb-f89d-afc-1cf1" sortIndex="1"/>
-                <entryLink import="true" name="Full Plate Armour" hidden="false" type="selectionEntry" id="3adb-5205-b9d4-286" targetId="2505-873d-1655-3b0b" sortIndex="2">
-                  <costs>
-                    <cost name="pts" typeId="points" value="3"/>
-                  </costs>
-                </entryLink>
+                <entryLink import="true" name="Full Plate Armour" hidden="false" type="selectionEntry" id="3adb-5205-b9d4-286" targetId="2505-873d-1655-3b0b" />
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Command" hidden="false" id="9841-db28-9866-979c" sortIndex="3">
@@ -1615,7 +1622,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="2273-b855-31ca-5766" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="90"/>
+            <cost name="pts" typeId="points" value="80"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" hidden="false" id="2230-66cd-82f8-ec15" sortIndex="5">
@@ -1708,7 +1715,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Full Plate Armour" hidden="false" type="selectionEntry" id="c6cd-186c-96cb-61cc" targetId="2505-873d-1655-3b0b" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="6"/>
+                    <cost name="pts" typeId="points" value="0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1962,7 +1969,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Prayers of Sigmar" hidden="false" id="2786-c7d8-ffba-da91" type="infoGroup" targetId="4e02-aa38-227c-b1e8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="110"/>
+            <cost name="pts" typeId="points" value="90"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Armour" hidden="false" id="8604-a89b-caa6-537b" defaultSelectionEntryId="e8ce-66cb-4285-d32" sortIndex="5">
@@ -2064,7 +2071,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Prayers of Sigmar" hidden="false" type="profile" id="830a-777f-894b-6be" targetId="6f59-f4af-ca65-cab9"/>
             <infoLink name="Magic Resistance" hidden="false" type="profile" id="ed29-52ae-52d8-3e50" targetId="90ed-c9be-a611-79cc">
               <modifiers>
-                <modifier type="append" value="(-1)" field="name"/>
+                <modifier type="append" value="(-2)" field="name"/>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="e8a7-791e-ac6b-f463" shared="true" includeChildSelections="true"/>
@@ -2118,7 +2125,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Prayers of Sigmar" hidden="false" id="73d4-c162-d4fb-1a81" type="infoGroup" targetId="4e02-aa38-227c-b1e8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="60"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Armour" hidden="false" id="baa4-23cf-7c11-3000" defaultSelectionEntryId="a19-b023-5643-948f" sortIndex="5">
@@ -2258,7 +2265,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Prayers of Ulric" hidden="false" id="1f81-d9a6-c8a3-6dc3" type="infoGroup" targetId="1d21-4a6c-ab02-6c57"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="110"/>
+            <cost name="pts" typeId="points" value="90"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Armour" hidden="false" id="e969-d933-17b0-333d" defaultSelectionEntryId="e8ce-66cb-4285-d32" sortIndex="5">
@@ -2349,7 +2356,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Prayers of Ulric" hidden="false" type="profile" id="aa57-148a-cb10-5cf8" targetId="d1f4-5e82-b7ed-3ad0"/>
             <infoLink name="Magic Resistance" hidden="false" type="profile" id="6a5a-deda-227e-33bf" targetId="90ed-c9be-a611-79cc">
               <modifiers>
-                <modifier type="append" value="(-1)" field="name"/>
+                <modifier type="append" value="(-2)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Magical Attacks" hidden="false" type="profile" id="54b5-3b1c-6f55-7695" targetId="2125-6aa2-f782-42bf"/>
@@ -2398,7 +2405,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Prayers of Ulric" hidden="false" id="c87d-6470-b1c9-3621" type="infoGroup" targetId="1d21-4a6c-ab02-6c57"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="60"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Armour" hidden="false" id="ee7-646c-81e4-28e3" defaultSelectionEntryId="e8ce-66cb-4285-d32" sortIndex="5">
@@ -2692,7 +2699,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Thrusting Spear" hidden="false" type="selectionEntry" id="284c-a2e5-843c-546a" targetId="99d2-7f59-5c14-3bf7" defaultAmount="1" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="1"/>
+                    <cost name="pts" typeId="points" value="0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -3338,6 +3345,11 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c19d-ad8c-89e3-8b9b"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Pistol" hidden="false" type="selectionEntry" id="44b-4b4d-7427-f1b4" targetId="d3c7-5222-61e8-9920" sortIndex="1">
+              <costs>
+                <cost name="pts" typeId="points" value="1"/>
+              </costs>
+            </entryLink>
             <entryLink import="true" name="Two Hand Weapons" hidden="false" type="selectionEntry" id="4d64-5236-6d45-4f1c" targetId="a5bd-e584-3c96-550f" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df70-299-3b9e-e16a"/>
@@ -3790,7 +3802,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="cba9-a657-e9c2-bbee" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="13"/>
+            <cost name="pts" typeId="points" value="11"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="d6ec-1d2-1144-ec66" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -4207,7 +4219,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="7e9d-9dec-d053-e9dd" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="21"/>
+            <cost name="pts" typeId="points" value="22"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Equipment" id="f239-5060-bd62-f86d" hidden="false" sortIndex="4">
@@ -4220,7 +4232,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                   <entryLinks>
                     <entryLink import="true" name="Great Weapon" hidden="false" id="0fea-88ad-47d3-b1ba" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="1">
                       <costs>
-                        <cost name="pts" typeId="points" value="1"/>
+                        <cost name="pts" typeId="points" value="0"/>
                       </costs>
                       <constraints>
                         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="306d-d1ba-73a6-95fc"/>
@@ -4277,7 +4289,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                         </modifier>
                       </modifiers>
                       <costs>
-                        <cost name="pts" typeId="points" value="1"/>
+                        <cost name="pts" typeId="points" value="0"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -4291,7 +4303,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                   <modifiers>
                     <modifier type="set" value="1" field="ec37-8cd4-1a2c-5db6">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="906a-c09d-9f34-a31f" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="0" field="selections" scope="root-entry" childId="906a-c09d-9f34-a31f" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -4512,7 +4524,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="f26f-cedd-d19-f018" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="29"/>
+            <cost name="pts" typeId="points" value="27"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Stubborn" hidden="false" id="53d7-d3eb-af46-32ac" collective="true" sortIndex="5">
@@ -4538,7 +4550,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                   <entryLinks>
                     <entryLink import="true" name="Great Weapon" hidden="false" id="9cf9-5a88-39e8-a787" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="1">
                       <costs>
-                        <cost name="pts" typeId="points" value="1"/>
+                        <cost name="pts" typeId="points" value="0"/>
                       </costs>
                       <constraints>
                         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="bf2d-49d9-31e3-b1f6"/>
@@ -4595,7 +4607,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                         </modifier>
                       </modifiers>
                       <costs>
-                        <cost name="pts" typeId="points" value="1"/>
+                        <cost name="pts" typeId="points" value="0"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -4607,7 +4619,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                     <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="008f-3d6a-43cd-74ca"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="1" field="008f-3d6a-43cd-74ca">
+                    <modifier type="set" value="0" field="008f-3d6a-43cd-74ca">
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="906a-c09d-9f34-a31f" shared="true" includeChildSelections="true"/>
                       </conditions>
@@ -5139,9 +5151,10 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <infoLink name="Unbreakable" id="1c23-97e9-7648-22d3" hidden="false" type="profile" targetId="d3eb-1fa0-bb19-f390"/>
                 <infoLink name="Armour Value" id="e562-f142-21f8-34b7" hidden="false" type="profile" targetId="e099-1ebb-9e85-34c8">
                   <modifiers>
-                    <modifier type="append" value=": 3+" field="name"/>
+                    <modifier type="append" value=": 2+" field="name"/>
                   </modifiers>
                 </infoLink>
+                <infoLink name="Iron Shell" id="d1f4-1000-420-1000" hidden="false" type="profile" targetId="d1f4-5e82-420-1000"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -5929,7 +5942,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="3be4-1f0b-7c2-6cfd" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="75"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon" hidden="false" id="ed76-c654-9027-baf6" sortIndex="7">
@@ -5994,7 +6007,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             </selectionEntryGroup>
             <selectionEntryGroup name="Mount" hidden="false" id="e732-5eee-e647-60fe" sortIndex="4">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1073-2f98-444c-ff93-min"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1073-2f98-444c-ff93-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1073-2f98-444c-ff93-max"/>
               </constraints>
               <entryLinks>
@@ -6021,12 +6034,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42a3-53b6-92df-1eb2-max"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="428-9d7f-69fc-366f" targetId="62fb-f89d-afc-1cf1" sortIndex="1"/>
-                <entryLink import="true" name="Full Plate Armour" hidden="false" type="selectionEntry" id="67d2-fa79-6d1c-8705" targetId="2505-873d-1655-3b0b" sortIndex="2">
-                  <costs>
-                    <cost name="pts" typeId="points" value="3"/>
-                  </costs>
-                </entryLink>
+                <entryLink import="true" name="Full Plate Armour" hidden="false" type="selectionEntry" id="67d2-fa79-6d1c-8705" targetId="2505-873d-1655-3b0b" />
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Command" hidden="false" id="c942-efef-8c47-a4df" sortIndex="3">
@@ -6439,7 +6447,7 @@ Note that any special rules granted by these upgrades do not apply to the models
         <infoLink name="Base (60x100)" id="d8ec-6e7c-8e8c-2e5b" hidden="false" type="profile" targetId="5125-89a4-916a-eabd"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="War Wagon Crew" hidden="false" id="64fe-1acb-3c2c-1176" sortIndex="1" collective="true" subType="crew">
@@ -6704,6 +6712,8 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Stubborn" id="dca5-e016-30f3-feb0" hidden="false" type="profile" targetId="e351-bbd6-f470-b604"/>
             <infoLink name="Drilled" id="4c63-b1e5-ae7c-115a" hidden="false" type="profile" targetId="1f64-3ddc-db58-12fb"/>
             <infoLink name="Veteran" id="053c-926a-bc77-584b" hidden="false" type="profile" targetId="4022-c403-b083-ba83"/>
+            <infoLink name="Furious Charge" id="0bae-7867-537f-e071" hidden="false" type="profile" targetId="eaca-69a2-8b6a-81c6"/>
+            <infoLink name="Crush the Weak" id="d1f4-1001-420-1001" hidden="false" type="profile" targetId="d1f4-5e82-420-1001"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -6718,7 +6728,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <categoryLink targetId="f3f7-ca43-674e-115f" id="aec3-5468-419f-4501" primary="false" name="Regular Infantry"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="65"/>
+            <cost name="pts" typeId="points" value="55"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b97c-9948-707c-3c54-min"/>
@@ -8073,7 +8083,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     </entryLink>
     <entryLink import="true" name="Flagellants" hidden="false" type="selectionEntry" id="3b15-73de-479f-81d2" targetId="68ee-4733-e734-10b">
       <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="eb68-c858-9a83-3320" targetId="2bfe-5863-46fe-d284" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="2f33-1993-6f57-a892" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)" hidden="false" id="0cab-264d-e5f5-2ada" primary="false" targetId="fec1-537a-bbeb-7926"/>
       </categoryLinks>
     </entryLink>
